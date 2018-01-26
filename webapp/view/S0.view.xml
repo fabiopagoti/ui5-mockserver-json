@@ -1,0 +1,17 @@
+<mvc:View controllerName="mock.controller.S0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="Mock">
+				<content>
+					<Text text="{/name}" />
+					<ComboBox items="{/fruits}">
+						<items>
+							<core:Item key="{}" text="{}" />
+						</items>
+					</ComboBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

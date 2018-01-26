@@ -1,0 +1,8 @@
+{
+	"name": "Mock Data",
+	"fruits": [
+		"fruit A",
+		"fruit B",
+		"fruit C"
+	]
+}
